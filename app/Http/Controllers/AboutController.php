@@ -6,6 +6,6 @@ class AboutController extends Controller
 {
     public function index()
     {
-        return 'index';
+        return view('site.about');
     }
 }
